@@ -1,0 +1,141 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-color:rgba(255, 0,0,.5);
+    background-image: url("../img/football-field.jpg");
+    background-size: 1500px;
+    text-align:center;
+
+}
+.intro-text{
+    background-color:rgb(150, 152, 172);
+    padding-bottom: 65px;
+}
+.content-grid{
+    background-color:rgb(104, 117, 153);
+    padding-bottom: 25px;
+}
+.closing-summary{
+    background-color:rgb(141, 152, 165);
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, p{
+    margin: -0.3px;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 3.4px;
+
+}
+
+h2{
+    font-size:30px;
+    padding-bottom: 88px;
+    line-height:1.1;
+    margin-top: -3px;
+}
+
+h3{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom: 31px;
+   
+}
+
+h4{
+    font-size:20px;
+    margin-top: -.6px;
+    margin-bottom: 7px;
+}
+
+.column-container {
+    width: 960px;
+    margin:auto;
+}
+
+header .column-container {
+    padding-top: 152px;
+    padding-bottom: 102px;
+}
+
+section .column-container{
+    padding-top: 38.5px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25.87px;
+    margin-bottom: -6.4px;
+    margin-top: 22px;
+    margin-left: 0.2px;
+    padding-top: 2px;
+}
+
+.floated-image{
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 39px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    max-height: 300px;
+    float: right;
+    border: 1px;
+}
+.image-grid img{
+    width:200px;
+    height:150px;
+}
+
+.image-grid li{
+    display:block;
+    text-align: left;
+    margin-bottom:19px;
+}
+
+.image-grid{
+    padding:0;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.photo-text{
+    max-width:247px;
+    padding-left:12px;
+    margin-right: 21px;
+}
+
+.closing-summary p{
+    margin-top: 25px;
+    margin-bottom: 1px;
+    margin-left: 129px;
+    margin-right: 129px;
+    font-size: 24.2px;
+    font-weight: 600;
+    letter-spacing: 0.31px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 42px;
+    padding-bottom:30px;
+    width: 960px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.textt {
+    margin-top: 6px;
+}
+
+.sectionn {
+    padding-top: 2px;
+}
+
+
+
