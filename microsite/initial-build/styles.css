@@ -1,0 +1,254 @@
+html {
+    background-color: rgb(234, 230, 183);
+    font-family: 'Crimson Text', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font: size 14pxpt;
+}
+
+
+.header{
+    
+    background-image: url("initial-images/front-page.jpeg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter:contrast(100%);
+    image-resolution: 30%;
+    filter:brightness(80%);
+    position:absolute;
+    text-align:center;
+}
+
+h5{
+    font-size:100px;
+    color:white;
+    z-index: 19px;
+    filter:brightness(100%)
+}
+
+.title{
+    color:white;
+}
+
+.selected-title{
+    color:rgb(192, 155, 100);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.content-container{
+    padding-top: 64px;
+    text-align:center;
+}
+
+h1{
+    margin-top:100px;
+    text-align:center;
+    font-size:60px;
+    margin-bottom: 80px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.navigation {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 30px 40px;
+    background-color: #59410d;
+    top:0px;
+    z-index: 14;
+}
+
+.body{
+    margin-top:30px;
+}
+
+
+
+.navigation h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.navigation .hightlight {
+    font-weight: bold;
+}
+
+.navigation h3:hover {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.timeline{
+    
+    position:relative;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+.timeline::after{
+    content:'';
+    position:absolute;
+    width:6px;
+    background-color:rgb(0, 0, 0);
+    top:0;
+    bottom:0;
+    left: 50%;
+    margin-left: 2px;
+}
+
+.content{
+    padding: 15px 20px;
+    background-color: rgb(180, 166, 128);
+    position: relative;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.container{
+    position: relative;
+    background-color: inherit;
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    position: absolute;
+    background-color: inherit;
+    margin-top: 0px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-between;
+    z-index:13;
+}
+
+.left-content{
+    padding: 15px 20px;
+    background-color: rgb(180, 166, 128);
+    position: relative;
+    border-radius: 6px;
+    width: 60%;
+
+}
+
+.second-left-container{
+    position:absolute;
+    background-color: inherit;
+    margin-top: 1000px;
+    margin-left: 675px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index:12;
+}
+
+.cheese{
+    width:600px;
+    position:relative;
+}
+
+.shredded{
+    width:600px;
+    margin-left:25px;
+    position:relative;
+}
+
+.images{
+    text-align:center;
+    width: 40%;
+}
+
+.history-content{
+    padding: 30px;
+    background-color: rgb(180, 166, 128);
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+}
+
+p{
+    font-size:17px;
+}
+
+.history-container{
+    position: relative;
+    background-color: inherit;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:110px;
+    margin-right:110px;
+}
+
+.images{
+    float: right;
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: match-parent;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.production{
+    width: 200px;
+    align-self:center;
+    margin-left:10px;
+}
+
+.process-images{
+    width: 400px;
+    margin-left: 80px;
+    margin-right: 40px;
+    position:relative;
+}
+
+.process-content{
+    padding: 15px 20px;
+    background-color: rgb(180, 166, 128);
+    position: relative;
+    border-radius: 6px;
+    width: 40%;
+    margin-right: 110px;
+    margin-left: 50px;
+}
